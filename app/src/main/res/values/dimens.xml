@@ -1,0 +1,17 @@
+<resources>
+    <!-- activity_splash.xml -->
+    <dimen name="splash_app_title">32dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- listview_row.xml -->
+    <dimen name="author_listview">17dp</dimen>
+    <dimen name="quote_listview">15dip</dimen>
+
+    <!-- activity_famous_quote.xml -->
+    <dimen name="famous_quote">23dp</dimen>
+    <dimen name="famous_author">20dp</dimen>
+
+    <!-- no_internet_connection.xml -->
+    <dimen name="no_internet_connection_text">20dp</dimen>
+</resources>

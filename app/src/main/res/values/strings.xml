@@ -1,0 +1,41 @@
+<resources>
+    <!-- App Title -->
+    <string name="app_name">Quotespiration</string>
+
+    <!-- Splash.java -->
+    <string name="splash_font">fonts/bubble.ttf</string>
+
+    <!-- FamousQuote.java -->
+    <string name="famous_quote_font">fonts/athena.ttf</string>
+    <string name="progress_dialog_wait_message">Please Wait...</string>
+    <string name="unknown_author">- Unknown</string>
+    <string name="json_quote_tag">quoteText</string>
+    <string name="json_author_tag">quoteAuthor</string>
+    <string name="error_title">Error: </string>
+    <string name="error_message">Error retrieving quote</string>
+    <string name="no_internet_connection">No Internet Connection. Please enable WiFi or Mobile Data</string>
+    <string name="quote_exists">This quote has already been added to favourites</string>
+    <string name="quote_added">Quote has been added to favourites</string>
+
+    <!-- FavouriteQuotes.java -->
+    <string name="done">Done</string>
+    <string name="progress_dialog_message">Loading...</string>
+    <string name="remove_quote_title">Remove Quote</string>
+    <string name="remove_quote_message">Are you sure you want to remove this quote?</string>
+    <string name="remove_all_quotes_title">Remove All Quotes</string>
+    <string name="remove_all_quotes_message">Are you sure you want to remove all quotes?</string>
+
+    <!-- activity_famous_quote.xml -->
+    <string name="favourites_button_text">Favourites</string>
+
+    <!-- no_internet_connection.xml -->
+    <string name="no_internet_connection_message">No Internet Connection</string>
+    <string name="try_again_button_text">Try Again</string>
+
+    <!-- menu_favourites.xml -->
+    <string name="delete_all_title">Delete All</string>
+
+    <!-- menu_quotes.xml -->
+    <string name="refresh_title">Refresh</string>
+    <string name="favourite_title">Favourite</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvFavouriteAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/author_listview"
+        android:textColor="@color/list_row_text"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        android:id="@+id/tvFavouriteQuote"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvFavouriteAuthor"
+        android:layout_marginTop="1dip"
+        android:textSize="@dimen/quote_listview"
+        android:textColor="@color/quote_text"
+        android:fontFamily="sans-serif-light"/>
+
+</RelativeLayout>

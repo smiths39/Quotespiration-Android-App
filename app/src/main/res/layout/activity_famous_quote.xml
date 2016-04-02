@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/quote_screen_background">
+
+    <TextView
+        android:id="@+id/tvFamousQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:padding="20dp"
+        android:lineSpacingMultiplier="1.2"
+        android:textSize="@dimen/famous_quote"
+        android:textColor="@color/quote_text"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tvAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvFamousQuote"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/famous_author"
+        android:textColor="@color/author_text"
+        android:fontFamily="sans-serif-thin"/>
+
+    <Button
+        android:id="@+id/btnFavourites"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_favourites"
+        android:text="@string/favourites_button_text"
+        android:textColor="@color/favourites_button_text_color"
+        android:layout_gravity="center_horizontal"/>
+
+</RelativeLayout>
